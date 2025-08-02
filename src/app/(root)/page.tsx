@@ -1,5 +1,6 @@
 import Home from "@/components/Home"
 import Navbar from "@/components/layout/Navbar"
+import Video from "./_components/Video"
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
           "and businesses and drive real results.",
         ]}
       />
+      <Video />
     </div>
   )
 }
