@@ -1,11 +1,8 @@
 "use client";
-import { Six_Caps } from "next/font/google"
 import { motion } from "motion/react"
 import { useRef, useState } from "react";
-const SixCaps = Six_Caps({
-    weight:  ["400"],
-    subsets: ["latin"]
-})
+import { SixCaps } from "@/constant/font";
+
 
 interface Props {
     text: string;
@@ -47,7 +44,7 @@ export const Text = ({ text }: Props) => {
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
       ref={containerRef}
-      className={`font-semibold uppercase ${SixCaps.className} items-center cursor-pointer text-[calc(1rem+16.15vh)] leading-[calc(1rem+14.15vh)]`}>
+      className={`font-bold uppercase ${SixCaps.className} items-center cursor-pointer text-[calc(1rem+16.15vw)] leading-[calc(1rem+14.15vw)] text-white`}>
       {text.split("").map((char, index) => (
         <motion.span
           animate={{
