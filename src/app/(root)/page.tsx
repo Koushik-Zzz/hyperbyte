@@ -2,6 +2,7 @@ import Home from "@/components/Home"
 import Navbar from "@/components/layout/Navbar"
 import Video from "./_components/Video"
 import Work from "./_components/Work"
+import Testimonial from "./_components/Testimonial"
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
       />
       <Video />
       <Work />
+      <Testimonial />
     </div>
   )
 }
