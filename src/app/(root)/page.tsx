@@ -4,6 +4,7 @@ import Video from "./_components/Video"
 import Work from "./_components/Work"
 import Testimonial from "./_components/Testimonial"
 import Contact from "@/components/Contact"
+import Services from "./_components/Services"
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
       />
       <Video />
       <Work />
+      <Services />
       <Testimonial />
       <Contact
         text="contact"

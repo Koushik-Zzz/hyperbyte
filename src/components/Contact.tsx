@@ -17,12 +17,11 @@ const Contact = ({ text, link, description }: ContactProps) => {
         </Link>
       </div>
       <div className="bottom-10 left-0 absolute grid grid-cols-1 md:grid-cols-3 px-10 w-full">
-        <div className="col-span-1">
+        <div className="col-span-1" />
           <h1 className="text-base text-center text-white">
             2025 &copy; HyperByte. All rights reserved.
           </h1>
           <div className="col-span-1" />
-        </div>
       </div>
     </div>
   )
