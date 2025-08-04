@@ -6,9 +6,10 @@ import { SixCaps } from "@/constant/font";
 
 interface Props {
     text: string;
+    down?: boolean;
 }
 
-export const Text = ({ text }: Props) => {
+export const Text = ({ text, down }: Props) => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const containerRef = useRef<HTMLHeadingElement | null>(null)
 
@@ -56,7 +57,7 @@ export const Text = ({ text }: Props) => {
           transition={{ type: "spring", stiffness: 300, damping: 30 }}
           style={{ 
             display: "inline-block",
-            transformOrigin: "bottom"
+            transformOrigin: down ? "top" : "bottom"
           }}
           key={index}>
             {char}

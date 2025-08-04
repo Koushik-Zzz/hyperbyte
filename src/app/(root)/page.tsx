@@ -3,6 +3,7 @@ import Navbar from "@/components/layout/Navbar"
 import Video from "./_components/Video"
 import Work from "./_components/Work"
 import Testimonial from "./_components/Testimonial"
+import Contact from "@/components/Contact"
 
 export default function HomePage() {
   return (
@@ -18,6 +19,11 @@ export default function HomePage() {
       <Video />
       <Work />
       <Testimonial />
+      <Contact
+        text="contact"
+        link="/contact"
+        description="Contact us and let's bring your vision to life."
+      />
     </div>
   )
 }
