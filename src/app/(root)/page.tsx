@@ -16,6 +16,7 @@ export default function HomePage() {
           "We create products that serves both users",
           "and businesses and drive real results.",
         ]}
+        connectBtn={true}
       />
       <Video />
       <Work />
