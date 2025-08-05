@@ -66,7 +66,7 @@ const projects = () => {
             </div>
           </Parallax>
         </div>
-        <div className="flex justify-end items-center col-span-1">
+        <div className="flex items-center col-span-1">
           <Parallax speed={-10}>
             <div className="flex flex-col gap-3 w-full md:w-[500px] group">
               <div className="rounded-md w-full md:w-[500px] h-[500px] overflow-hidden">
@@ -90,16 +90,16 @@ const projects = () => {
             <div className="flex flex-col gap-3 w-full md:w-[500px] group">
               <div className="rounded-md w-full md:h-[700px] h-[500px] overflow-hidden">
                 <Image
-                  src={Projects[1].src}
+                  src={Projects[4].src}
                   width={500}
                   height={500}
                   className="w-full md:w-[500px] h-full object-cover hover:scale-[1.05] transition-transform duration-500 ease-in-out"
-                  alt={Projects[1].title}
+                  alt={Projects[4].title}
                 />
               </div>
               <div className="flex justify-between items-center pr-2">
-                <h1 className="font-medium text-lg text-white">{Projects[1].title}</h1>
-                <h1 className="text-[#6d6d6d] text-base">{Projects[1].desc}</h1>
+                <h1 className="font-medium text-lg text-white">{Projects[4].title}</h1>
+                <h1 className="text-[#6d6d6d] text-base">{Projects[4].desc}</h1>
               </div>
             </div>
           </Parallax>
