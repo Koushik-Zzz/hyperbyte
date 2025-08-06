@@ -9,7 +9,6 @@ import Services from "./_components/Services"
 export default function HomePage() {
   return (
     <div className="">
-      <Navbar />
       <Home
         text="hyperbyte"
         description={[
